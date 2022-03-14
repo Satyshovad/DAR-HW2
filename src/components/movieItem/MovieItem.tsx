@@ -8,7 +8,7 @@ type Props = {
 const MovieItem: React.FC<Props> = ({movie}) => {
     const [addedToWatchLater, setaddedToWatchLater] = useState<boolean>();
 
-    const watchLaterClick = () => {
+    const watchLaterClick = () => { 
         setaddedToWatchLater(true);
         console.log('Movie clicked', addedToWatchLater);
     }

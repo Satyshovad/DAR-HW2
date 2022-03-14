@@ -11,7 +11,6 @@ const Main = () => {
 
         <h2>Actors ({actors.length})</h2>
         <ActorsList actors={actors} />
-        
     </div>
 };
 

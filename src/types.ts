@@ -3,7 +3,7 @@ export interface Movie {
     title: string,
     description: string,
     duration: number,
-    image: string
+    image: string 
 };
 
 export interface Actor {

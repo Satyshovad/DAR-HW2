@@ -15,7 +15,7 @@ const ActorEach: React.FC<Props> =({actor}) =>{
     return(
         <div className="actor-each" style={{marginBottom:'1rem'}}>
             <img src={actor.image} alt={actor.name} style={{width: '200px', height: '200px'}}/>
-            <div>{actor.name}</div>
+            <div>{actor.name}</div>  
             <div>{actor.film}</div>
             <div>{actor.duration /60} hours</div>
             <button onClick={watchLaterClick}>{addedToWatchLater ? 'Added to list' : 'Watch later'}</button>

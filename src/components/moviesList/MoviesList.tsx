@@ -13,7 +13,7 @@ const MoviesList: React.FC<Props>  = ({movies}) =>{
         <MovieItem key={movie.id} movie={movie} />
         ))
     }
-</div>
+</div> 
 );
 };
 

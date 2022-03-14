@@ -33,7 +33,7 @@ export const actors: Actor[] = [
         image: 'https://i.pinimg.com/736x/ff/9c/4d/ff9c4d12d6655783fca9bb73b0b81602.jpg'
     },
     {
-        id: 2,
+        id: 2, 
         name: 'Zendaya Maree',
         film: 'Spider-Man: No Way Home/ Dune',
         duration: 156,
