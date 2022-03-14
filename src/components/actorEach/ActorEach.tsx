@@ -11,7 +11,7 @@ const ActorEach: React.FC<Props> =({actor}) =>{
     const watchLaterClick = () => {
         setaddedToWatchLater(true);
         console.log('Actor clicked', addedToWatchLater)
-    }
+    } 
     return(
         <div className="actor-each" style={{marginBottom:'1rem'}}>
             <img src={actor.image} alt={actor.name} style={{width: '200px', height: '200px'}}/>

@@ -9,7 +9,7 @@ export const movies: Movie[] = [
         image: 'https://i.pinimg.com/originals/1d/16/83/1d1683df1921c56cdedc14d9e74716c4.jpg'
     },
     {
-        id: 2,
+        id: 2, 
         title: 'Spider-man',
         description: 'vgbhnjmk',
         duration: 120,

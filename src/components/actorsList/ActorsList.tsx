@@ -12,7 +12,7 @@ const ActorsList: React.FC<Props> =({ actors}) => {
             {actors.map((actor) =>
                 <ActorsEach key={actor.id} actor={actor}/>
             )}
-        </div>
+        </div> 
     );
 };
 
