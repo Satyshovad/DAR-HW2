@@ -16,7 +16,7 @@ const MovieItem: React.FC<Props> = ({movie}) => {
         <div className="movie-item" style={{marginBottom:'1rem'}}>
             <img src={movie.image} alt={movie.title} style={{width: '200px', height: '200px' }}/>
              <div>{ movie.title}</div>
-             <div>{ movie.description}</div>
+             <div>{ movie.descripti on}</div>
              <div>{ movie.duration / 60} hours</div>
              <button onClick={watchLaterClick}>{addedToWatchLater ? 'Added to list' : 'Watch later'}</button>
         </div>

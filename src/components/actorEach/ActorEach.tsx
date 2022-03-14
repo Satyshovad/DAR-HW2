@@ -10,7 +10,7 @@ const ActorEach: React.FC<Props> =({actor}) =>{
 
     const watchLaterClick = () => {
         setaddedToWatchLater(true);
-        console.log('Actor clicked', addedToWatchLater)
+        console.log('Actor clicked', addedToWatchLater) 
     } 
     return(
         <div className="actor-each" style={{marginBottom:'1rem'}}>

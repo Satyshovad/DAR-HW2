@@ -2,7 +2,7 @@ import { Movie, Actor } from './types';
 
 export const movies: Movie[] = [
     {
-        id: 1,
+        id: 1, 
         title: 'Batman',
         description: 'vgbhnjmk',
         duration: 180,

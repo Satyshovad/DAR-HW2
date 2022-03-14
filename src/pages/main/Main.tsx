@@ -6,7 +6,7 @@ import ActorsList from "../../components/actorsList/ActorsList";
 const Main = () => {
 
     return <div>
-        <h2>Movies ({movies.length})</h2> 
+        <h2>Movies ({movies.length})</h2>  
         <MoviesList movies={movies}/>
 
         <h2>Actors ({actors.length})</h2>

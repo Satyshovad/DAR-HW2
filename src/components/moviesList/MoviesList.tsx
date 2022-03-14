@@ -11,7 +11,7 @@ const MoviesList: React.FC<Props>  = ({movies}) =>{
     <div className="movies-list">
     { movies.map((movie) => (
         <MovieItem key={movie.id} movie={movie} />
-        ))
+        )) 
     } 
 </div> 
 );
